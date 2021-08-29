@@ -1,360 +1,432 @@
-*{
-    margin:0;
-}
-#upper_head{
-    width:100%;
-    height:400px;
-    background-image: url('images/header_img.png');
-    background-size: 100% 450px;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-.navBar ul li a{
-    text-decoration: none;
-    color:white;
-}
-.navBar ul{
-    display: inline-flex;
-}
-.navBar ul li{
-    margin-left: 20px;
-    margin-top: 20px;
-}
-.nameIcon{
-    color:rgba(255, 255, 255, 0.753);
-    margin-top:100px;
-}
-.nameIcon h1{
-    font-size: 80px;
-}
-.nameIcon ul li a{
-    text-decoration: none;
-    color:white;
-}
-.nameIcon ul{
-    display: inline-flex;
-    margin-right: 100px;
-}
-.nameIcon ul li{
-    margin-left: 80px;
-    margin-top: 20px;
-}
-#about {
-    height: auto;
-    width: 100%;
-    position: relative;
-}
 
-#my-image {
-    height: 10rem;
-    width: 10rem;
-    margin: auto;
-    margin-top:-18vh;
-}
-#my-image img {
-    height: 10rem;
-    width: 10rem;
-    border-radius:50%;
-    box-shadow:3px 5px 5px 3px white;
-    border:5px solid white;
-}
-.aboutText{
-    margin:20px 70px 0px 200px;
-    text-align: left;
-    width:70%;
-}
-.aboutText p::first-letter {
-    font-size: 200%;
-    color: #8A2BE2;
-}
-#skill{
-    width:100%;
-    height:350px;
-    background-color:rgba(211, 211, 211, 0.384);
-    margin-top: 50px;
-}
-.skillHead{
-    padding-top: 50px;
-    text-align: center;
-}
-.skillHead h1{
-    color:rgba(0, 0, 128, 0.678);
-    font-size: xx-large;
-    letter-spacing: 2px;
-}
-.progress{
-    margin-top: 50px;
-    text-align: left;
-    color:white;
-}
-.progressBar{
-    display:inline-flex;
-    flex-wrap: wrap;
-    width:100%;
-}
-.progressBar2{
-    display:inline-flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    width: 100%;
-}
-#progress-1{
-    border:1px solid rgba(128, 128, 128, 0.507);
-    border-radius:100px;
-    width:180px;
-    margin-left: 180px;
-    height: 40px;
-    background-color: lightgray;
-}
-#progress-2{
-    border:1px solid rgba(128, 128, 128, 0.507);
-    border-radius:100px;
-    width:180px;
-    height: 40px;
-    background-color: lightgray;
-    margin-left: 70px;
-}
-#progress-3{
-    border:1px solid rgba(128, 128, 128, 0.507);
-    border-radius:100px;
-    width:180px;
-    height: 40px;
-    background-color: lightgray;
-    margin-left: 70px;
-}
-#progress-4{
-    border:1px solid rgba(128, 128, 128, 0.507);
-    border-radius:100px;
-    width:180px;
-    height: 40px;
-    background-color: lightgray;
-    margin-left: 70px;
-}
-#progress-5{
-    border:1px solid rgba(128, 128, 128, 0.507);
-    border-radius:100px;
-    width:180px;
-    height: 40px;
-    background-color: lightgray;
-    margin-left:320px;
-}
-#progress-6{
-    border:1px solid rgba(128, 128, 128, 0.507);
-    border-radius:100px;
-    width:180px;
-    height: 40px;
-    background-color: lightgray;
-    margin-left:300px;
-}
-.dColor{
-    width:50%;
-    height: 100%;
-    background-color: navy;
-    border-radius: 100px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-    box-shadow:3px 0px 3px 0px gray;
-}
-.dColor p{
-    padding-top:10px;
-    padding-left:1px;
-}
-.dColor-2{
-    width:90%;
-    height: 100%;
-    background-color: rgb(233, 114, 35);
-    border-radius: 100px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-    box-shadow:3px 0px 3px 0px gray;
-}
-.dColor-2 p{
-    text-align: left;
-    padding-top: 10px;
-    padding-left:20px;
-}
-.dColor-3{
-    width:80%;
-    height: 100%;
-    background-color: rgba(73, 21, 88, 0.61);
-    border-radius: 100px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-    box-shadow:3px 0px 3px 0px gray;
-}
-.dColor-3 p{
-    text-align: left;
-    padding-top: 10px;
-    padding-left:20px;
-}
-.dColor-4{
-    width:90%;
-    height: 100%;
-    background-color: rgb(5, 82, 52);
-    border-radius: 100px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-    box-shadow:3px 0px 3px 0px gray;
-}
-.dColor-4 p{
-    text-align: left;
-    padding-top: 10px;
-    padding-left:20px;
-}
-.dColor-5{
-    width:50%;
-    height: 100%;
-    background-color: navy;
-    border-radius: 100px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-    box-shadow:3px 0px 3px 0px gray;
-}
-.dColor-5 p{
-    text-align: left;
-    padding-top: 10px;
-    padding-left:20px;
-}
-.dColor-6{
-    width:80%;
-    height: 100%;
-    background-color: rgba(73, 21, 88, 0.61);
-    border-radius: 100px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
-    box-shadow:3px 0px 3px 0px gray;
-}
-.dColor-6 p{
-    text-align: left;
-    padding-top: 10px;
-    padding-left:20px;
-}
-#work{
-    margin:20px 70px 0px 200px;
-    width:70%;
-    height:auto;
-}
-.one{
-    margin:70px 700px 0px 40px;
-    width:40%;
-    height:300px;
-    position: relative;
-}
-.two{
-    margin:0px 40px 0px 440px;
-    width:40%;
-    height:300px;
-    position: relative;
-}
-.three{
-    margin:0px 700px 20px 40px;
-    width:40%;
-    height:300px;
-    position: relative;
-}
-.workHead{
-       margin-top: 10%;
-       color:rgba(0, 0, 128, 0.682);
-       text-align: center;
-       font-size:70%;
-}
-.vl{
-    height:100%;
-    border-left:3px dotted rgba(0, 174, 255, 0.836);
-    width:0px;
-    position:absolute;
-    margin-left: 416px;
-    margin-top:18%;
-}
-.vl i{
-    margin:-17px;
-    font-size:30px;
-    margin-top: 20px;
-    color:navy;
-}
-.upper{
-    height:30%;
-    margin:0px 10px 10px 10px;
-}
-.upper .logo img{
-    width:60px;
-    height:60px;
-    box-shadow: 3px 3px 3px 3px lightgray;
-}
-.logo{
-    position:absolute;
-    margin-top: 40px;
-    margin-left: 30px;
-}
-.desc{
-    position: absolute;
-    margin-left:150px;
-    margin-top: 40px;
-    word-wrap:break-word;
-    width:70%;
-}
-.desc h2{
-    color:rgba(23, 23, 134, 0.849);
-}
-.desc h3{
-    margin-top: 4px;
-    color:orange;
-    word-spacing:4px;
-}
-.desc h5{
-    margin-right: 30px;
-    margin-top:5px;
-    color:gray;
-}
-.lower{
-    position: absolute;
-    margin-top: 50px;
-    word-wrap: break-word;
-    color:rgba(128, 128, 128, 0.856);
-}
-#education{
-    height:auto;
-    background-color:rgba(211, 211, 211, 0.384);
-}
-.eduHead{
-    text-align: center;
-    color:rgba(0, 0, 128, 0.682);
-    padding-top: 50px;
-}
-.section-1{
-    margin:2px 70px 0px 200px;
-    width:70%;
-    height:auto;
-}
-#portfolio{
-    height:600px;
-}
-.portHead{
-    text-align: center;
-    color:rgba(0, 0, 128, 0.682);
-    padding-top: 50px;
-}
-.portBody{
-    margin-top:20px;
-    height:500px;
-}
-.div-1{
-    width:70%;
-    margin-left:15%;
-    margin-right:15%;
-    height: 40%;
-    background-image: url('images/pic1.png');
-    background-size: 33.33% 100%;
-}
-.div-2{
-    margin-top: 10px;
-    width:70%;
-    margin-left:15%;
-    margin-right:15%;
-    height: 40%;
-    background-image: url('images/pic2.png');
-    background-size: 33.33% 100%;
-}
+/*--------------Body---------------------*/
+
+    *{
+        margin:0;
+    }
+
+
+/*---------------Home-----------------*/
+
+
+    #upper_head{
+        width:100%;
+        height:400px;
+        background-image: url('images/header_img.png');
+        background-size: 100% 450px;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+/*--navbar--*/
+
+    .navBar ul li a{
+        text-decoration: none;
+        color:white;
+    }
+    .navBar ul{
+        display: inline-flex;
+    }
+    .navBar ul li{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+/*--Name+IconList--*/
+
+    .nameIcon{
+        color:rgba(255, 255, 255, 0.753);
+        margin-top:100px;
+    }
+    .nameIcon h1{
+        font-size: 80px;
+    }
+    .nameIcon ul li a{
+        text-decoration: none;
+        color:white;
+    }
+    .nameIcon ul{
+        display: inline-flex;
+        margin-right: 100px;
+    }
+    .nameIcon ul li{
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
+
+
+/*---------------About-----------------*/
+
+
+    #about {
+        height: auto;
+        width: 100%;
+        position: relative;
+   }
+
+/*--Circle Image--*/
+
+    #my-image {
+        height: 10rem;
+        width: 10rem;
+        margin: auto;
+        margin-top:-18vh;
+    }
+    #my-image img {
+        height: 10rem;
+        width: 10rem;
+        border-radius:50%;
+        box-shadow:3px 5px 5px 3px white;
+        border:5px solid white;
+    }
+
+/*--About Text--*/
+
+    .aboutText{
+        margin:20px 70px 0px 200px;
+        text-align: left;
+        width:70%;
+    }
+    .aboutText p::first-letter {
+        font-size: 200%;
+        color: #8A2BE2;
+    }
+
+
+/*---------------Skill-----------------*/
+
+
+    #skill{
+        width:100%;
+        height:350px;
+        background-color:rgba(211, 211, 211, 0.384);
+        margin-top: 50px;
+    }
+
+/*--Heading--*/
+
+    .skillHead{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .skillHead h1{
+        color:rgba(0, 0, 128, 0.678);
+        font-size: xx-large;
+        letter-spacing: 2px;
+    }
+
+/*--Progress-Bar--*/
+
+    .progress{
+        margin-top: 50px;
+        text-align: left;
+        color:white;
+    }
+    .progressBar{
+        display:inline-flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    .progressBar2{
+        display:inline-flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        width: 100%;
+    }
+    #progress-1{
+        border:1px solid rgba(128, 128, 128, 0.507);
+        border-radius:100px;
+        width:180px;
+        margin-left: 180px;
+        height: 40px;
+        background-color: lightgray;
+    }
+    #progress-2{
+        border:1px solid rgba(128, 128, 128, 0.507);
+        border-radius:100px;
+        width:180px;
+        height: 40px;
+        background-color: lightgray;
+        margin-left: 70px;
+    }
+    #progress-3{
+        border:1px solid rgba(128, 128, 128, 0.507);
+        border-radius:100px;
+        width:180px;
+        height: 40px;
+        background-color: lightgray;
+        margin-left: 70px;
+    }
+    #progress-4{
+        border:1px solid rgba(128, 128, 128, 0.507);
+        border-radius:100px;
+        width:180px;
+        height: 40px;
+        background-color: lightgray;
+        margin-left: 70px;
+    }
+    #progress-5{
+        border:1px solid rgba(128, 128, 128, 0.507);
+        border-radius:100px;
+        width:180px;
+        height: 40px;
+        background-color: lightgray;
+        margin-left:320px;
+    }
+    #progress-6{
+        border:1px solid rgba(128, 128, 128, 0.507);
+        border-radius:100px;
+        width:180px;
+        height: 40px;
+        background-color: lightgray;
+        margin-left:300px;
+    }
+
+/*--Text-Part--*/
+
+    .dColor{
+        width:50%;
+        height: 100%;
+        background-color: navy;
+        border-radius: 100px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        box-shadow:3px 0px 3px 0px gray;
+    }
+   .dColor p{
+        padding-top:10px;
+        padding-left:1px;
+    }
+    .dColor-2{
+        width:90%;
+        height: 100%;
+        background-color: rgb(233, 114, 35);
+        border-radius: 100px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        box-shadow:3px 0px 3px 0px gray;
+    }
+    .dColor-2 p{
+        text-align: left;
+        padding-top: 10px;
+        padding-left:20px;
+    }
+    .dColor-3{
+        width:80%;
+        height: 100%;
+        background-color: rgba(73, 21, 88, 0.61);
+        border-radius: 100px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        box-shadow:3px 0px 3px 0px gray;
+    }
+    .dColor-3 p{
+        text-align: left;
+        padding-top: 10px;
+        padding-left:20px;
+    }
+    .dColor-4{
+        width:90%;
+        height: 100%;
+        background-color: rgb(5, 82, 52);
+        border-radius: 100px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        box-shadow:3px 0px 3px 0px gray;
+    }
+    .dColor-4 p{
+        text-align: left;
+        padding-top: 10px;
+        padding-left:20px;
+    }
+   .dColor-5{
+        width:50%;
+        height: 100%;
+        background-color: navy;
+        border-radius: 100px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        box-shadow:3px 0px 3px 0px gray;
+    }
+   .dColor-5 p{
+        text-align: left;
+        padding-top: 10px;
+        padding-left:20px;
+    }
+    .dColor-6{
+        width:80%;
+        height: 100%;
+        background-color: rgba(73, 21, 88, 0.61);
+        border-radius: 100px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        box-shadow:3px 0px 3px 0px gray;
+    }
+    .dColor-6 p{
+        text-align: left;
+        padding-top: 10px;
+        padding-left:20px;
+    }
+
+
+
+/*---------------Work Experience-----------------*/
+
+
+    #work{
+        margin:20px 70px 0px 200px;
+        width:70%;
+        height:auto;
+    }
+
+/*--Sections--*/
+
+    .one{
+        margin:70px 700px 0px 40px;
+        width:40%;
+        height:300px;
+        position: relative;
+    }
+    .two{
+        margin:0px 40px 0px 440px;
+        width:40%;
+        height:300px;
+        position: relative;
+    }
+    .three{
+        margin:0px 700px 20px 40px;
+        width:40%;
+        height:300px;
+        position: relative;
+    }
+
+/*--Heading--*/
+
+    .workHead{
+        margin-top: 10%;
+        color:rgba(0, 0, 128, 0.682);
+        text-align: center;
+        font-size:70%;
+     }
+
+/*--Vertical Line--*/
+
+    .vl{
+        height:100%;
+        border-left:3px dotted rgba(0, 174, 255, 0.836);
+        width:0px;
+        position:absolute;
+        margin-left: 416px;
+        margin-top:18%;
+    }
+    .vl i{
+        margin:-17px;
+        font-size:30px;
+        margin-top: 20px;
+        color:navy;
+    }
+
+/*--Div Design--*/
+
+    .upper{
+        height:30%;
+        margin:0px 10px 10px 10px;
+    }
+    .upper .logo img{
+        width:60px;
+        height:60px;
+        box-shadow: 3px 3px 3px 3px lightgray;
+     }
+     .logo{
+         position:absolute;
+         margin-top: 40px;
+         margin-left: 30px;
+     }
+     .desc{
+         position: absolute;
+         margin-left:150px;
+         margin-top: 40px;
+         word-wrap:break-word;
+         width:70%;
+     }
+     .desc h2{
+         color:rgba(23, 23, 134, 0.849);
+     }
+     .desc h3{
+         margin-top: 4px;
+         color:orange;
+         word-spacing:4px;
+     }
+     .desc h5{
+         margin-right: 30px;
+         margin-top:5px;
+         color:gray;
+       }
+       .lower{
+         position: absolute;
+         margin-top: 50px;
+         word-wrap: break-word;
+         color:rgba(128, 128, 128, 0.856);
+       }
+
+
+/*---------------Education-----------------*/
+
+
+      #education{
+          height:auto;
+          background-color:rgba(211, 211, 211, 0.384);
+      }
+      .eduHead{
+          text-align: center;
+          color:rgba(0, 0, 128, 0.682);
+          padding-top: 50px;
+      }
+      .section-1{
+          margin:2px 70px 0px 200px;
+          width:70%;
+          height:auto;
+      }
+
+
+/*---------------Portfolio-----------------*/
+
+
+      #portfolio{
+          height:600px;
+      }
+      .portHead{
+          text-align: center;
+          color:rgba(0, 0, 128, 0.682);
+          padding-top: 50px;
+      }
+      .portBody{
+          margin-top:20px;
+          height:500px;
+      }
+      .div-1{
+         width:70%;
+         margin-left:15%;
+         margin-right:15%;
+         height: 40%;
+         background-image: url('images/pic1.png');
+         background-size: 33.33% 100%;
+      }
+      .div-2{
+         margin-top: 10px;
+         width:70%;
+         margin-left:15%;
+         margin-right:15%;
+         height: 40%;
+         background-image: url('images/pic2.png');
+         background-size: 33.33% 100%;
+      }
+
+
+/*---------------Contact-----------------*/
+
+
 #contact{
     border:2px solid black;
     height:650px;
@@ -420,7 +492,11 @@ table h3{
 #last{
     text-align: center;
 }
-/*----------------*/
+
+
+
+/*---------------Media Query-----------------*/
+
 
 @media screen and (max-width:1024px){
     #upper_head{
